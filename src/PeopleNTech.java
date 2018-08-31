@@ -4,11 +4,11 @@ public class PeopleNTech {
     static int id;
     final static String batch="Selenium";
     final static  String school="PeopleNTech";
-    private static PeopleNTech peopleNTech;
+    private static PeopleNTech peopleNTech=null;
 
     public static PeopleNTech getPeoplenTech(){
         if (peopleNTech==null){
-            new PeopleNTech();
+           peopleNTech= new PeopleNTech();
         }
         return peopleNTech;
     }
@@ -16,12 +16,6 @@ public class PeopleNTech {
 
     private PeopleNTech(){ //signleton
     }
-  PeopleNTech(String name, int id , String batch){
-       PeopleNTech.name=name;
-      PeopleNTech.id=id;
-
-   }
-
     public static String   attendAt(String name){
          return school;
   }
