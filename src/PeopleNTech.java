@@ -2,21 +2,35 @@ public class PeopleNTech {
     //The use of static variable and static method.
     static String name;
     static int id;
-    static String batch;
-    static  String school="PeopleNTech";
+    final static String batch="Selenium";
+    final static  String school="PeopleNTech";
+    private static PeopleNTech peopleNTech;
 
-    PeopleNTech(){
+    public static PeopleNTech getPeoplenTech(){
+        if (peopleNTech==null){
+            new PeopleNTech();
+        }
+        return peopleNTech;
     }
-   PeopleNTech(String name, int id , String batch){
-        PeopleNTech.name=name;
-        PeopleNTech.id=id;
-        PeopleNTech.batch=batch;
 
+
+    private PeopleNTech(){ //signleton
     }
+  PeopleNTech(String name, int id , String batch){
+       PeopleNTech.name=name;
+      PeopleNTech.id=id;
+
+   }
 
     public static String   attendAt(String name){
-      PeopleNTech.school=school;   return school;
+         return school;
   }
+
+    public static void regAt(String batch){
+        System.out.println("I am registered at PeopleNTech");
+
+    }
+
 
 
 }
