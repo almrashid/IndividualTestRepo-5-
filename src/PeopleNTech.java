@@ -14,7 +14,7 @@ public class PeopleNTech {
 
     }
 
-    public static String    attendAt(String name){
+    public static String   attendAt(String name){
       PeopleNTech.school=school;   return school;
   }
 
