@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fad8c914-2dea-41c9-aa7b-6882a2c58105" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FileReaderexample/UseFileReaderBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/UseLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoopExample/UseOfLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,27 +28,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="27" />
+          <entry key="java" value="35" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="27" />
+          <entry key="JAVA" value="35" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="3598" />
+          <entry key="java" value="4218" />
           <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3598" />
+          <entry key="JAVA" value="4218" />
           <entry key="PLAIN_TEXT" value="31" />
         </counts>
       </usages-collector>
@@ -55,13 +57,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FileReaderexample/UseFileReaderBuffer.java">
+        <entry file="file://$PROJECT_DIR$/src/LoopExample/NestedLoop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-216">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -92,6 +91,10 @@
         <option value="$PROJECT_DIR$/src/PeopleNTech.java" />
         <option value="$PROJECT_DIR$/src/TestPeopleNTech.java" />
         <option value="$PROJECT_DIR$/src/FileReaderexample/UseFileReaderBuffer.java" />
+        <option value="$PROJECT_DIR$/src/LoopExample/UseOfLoop.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/UseLinkList.java" />
+        <option value="$PROJECT_DIR$/src/UseArrayList.java" />
+        <option value="$PROJECT_DIR$/src/LoopExample/NestedLoop.java" />
       </list>
     </option>
   </component>
@@ -130,7 +133,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/almrashid/IdeaProjects/IndividualTestRepo/src/TestPeopleNTech.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535759847025" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535763789297" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -152,13 +155,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UseFileReaderBuffer">
-    <configuration name="TestHp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NestedClassExample.TestHp" />
+  <component name="RunManager" selected="Application.NestedLoop">
+    <configuration name="NestedLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoopExample.NestedLoop" />
       <module name="IndividualTestRepo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NestedClassExample.*" />
+          <option name="PATTERN" value="LoopExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,15 +169,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPeopleNTech" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestPeopleNTech" />
-      <module name="IndividualTestRepo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSingleTon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestSingleTon" />
+    <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UseArrayList" />
       <module name="IndividualTestRepo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -193,18 +189,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UseLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.UseLinkList" />
+      <module name="IndividualTestRepo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseOfLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoopExample.UseOfLoop" />
+      <module name="IndividualTestRepo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LoopExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.TestPeopleNTech" />
-      <item itemvalue="Application.TestSingleTon" />
-      <item itemvalue="Application.TestHp" />
       <item itemvalue="Application.UseFileReaderBuffer" />
+      <item itemvalue="Application.UseOfLoop" />
+      <item itemvalue="Application.NestedLoop" />
+      <item itemvalue="Application.UseLinkList" />
+      <item itemvalue="Application.UseArrayList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NestedLoop" />
+        <item itemvalue="Application.UseArrayList" />
+        <item itemvalue="Application.UseLinkList" />
+        <item itemvalue="Application.UseOfLoop" />
         <item itemvalue="Application.UseFileReaderBuffer" />
-        <item itemvalue="Application.TestPeopleNTech" />
-        <item itemvalue="Application.TestHp" />
-        <item itemvalue="Application.TestSingleTon" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +270,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32974428" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -423,11 +447,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FileReaderexample/UseFileReaderBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
+        <state relative-caret-position="260">
           <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/UseLinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UseArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#166#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoopExample/UseOfLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoopExample/NestedLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
