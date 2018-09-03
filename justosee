@@ -1,0 +1,26 @@
+public class TestPeopleNTech  {
+
+
+    public static void main(String[] args) {
+
+        PeopleNTech peopleNTech=PeopleNTech.getPeoplenTech();
+        System.out.println(peopleNTech.hashCode());
+        PeopleNTech peopleNTech1=PeopleNTech.getPeoplenTech();
+        System.out.println(peopleNTech1.hashCode());
+        PeopleNTech peopleNTech2=PeopleNTech.getPeoplenTech();
+        System.out.println(peopleNTech2.hashCode());
+        String p= peopleNTech.attendAt("Peoplentech");
+        System.out.println(p);
+        System.out.println(peopleNTech.attendAt("Peoplentech1"));
+        System.out.println(peopleNTech.regAt("Selenium"));
+
+
+
+
+
+    }
+
+
+
+
+}
